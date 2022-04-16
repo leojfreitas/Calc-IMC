@@ -8,6 +8,16 @@
     <script type="text/javascript" src="file.js"></script>
 </head>
 <body>
-  
+    <form method="post" onsubmit="return calcular()">
+        Digite seu peso: <br/>
+        <input type="text" name="peso" id="peso" placeholder="Exemplo 70"/>   <br/><br/>
+
+        Digite sua altura: <br/>
+        <input type="text" name="altura" id="altura" placeholder="Exemplo 1.70"/>   <br/><br/>
+        <input type="submit" value="Calcular IMC"/>
+
+        <div id="resultado"> </div>
+
+    </form>
 </body>
 </html>
